@@ -7,12 +7,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      'dompurify': resolve('node_modules/dompurify')
-    }
-  },
-  build: {
-    rollupOptions: {
-      external: ['dompurify']
+      'dompurify': 'dompurify/dist/purify.js'
     }
   }
 })
