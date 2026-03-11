@@ -1,5 +1,5 @@
-import jsPDF from 'jspdf/dist/jspdf.es.min.js';
-import autoTable from 'jspdf-autotable';
+import { jsPDF } from 'jspdf';
+import { autoTable } from 'jspdf-autotable';
 import { generateCode128B } from './barcode';
 
 // Helper to format currency

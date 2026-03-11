@@ -5,9 +5,8 @@ import { resolve } from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  resolve: {
-    alias: {
-      'dompurify': 'dompurify/dist/purify.js'
-    }
+  base: './',
+  optimizeDeps: {
+    include: ['jspdf', 'dompurify']
   }
 })

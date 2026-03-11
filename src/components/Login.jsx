@@ -10,6 +10,7 @@ function Login({ toggleView }) {
     const [password, setPassword] = useState('');
     const [clubName, setClubName] = useState('');
     const [newPassword, setNewPassword] = useState('');
+    const [uid, setUid] = useState('');
     const [showPassword, setShowPassword] = useState(false);
     const [error, setError] = useState('');
     const [success, setSuccess] = useState('');
